@@ -35,27 +35,23 @@ utils.py: Some tools for network training and testing.
 
 data.py: Preparation tools for the training dataset.
 
-test.py: Quick dehazing test for hazy images.
+test.py: Quick detection test for harsh images.
 
-testall.py: Dehazing test for all hazy images dataset.
+testall.py: Detection test for all harsh images dataset.
 
-train.py: Training the dehazing model by supervised learning.
-
-SemiStrain.py: Training the dehazing model by Semi-supervised learning in specific dataset.
+train.py: Training the dehazing model.
 
 ## Test
 1. Please put the images to be tested into the ``test_images`` folder. We have prepared the images of the experimental results in the paper.
-2. Please run the ``test.py``, then you will get the following results:
+2. Please run the ``test.py``, then you will get the following results for OARE:
 <p float="left">
-  &emsp;&emsp; <img src="./f7.png" width="900" />
+  &emsp;&emsp; <img src="./f77.png" width="900" />
 </p>
 
 ## Test all
-If you want to test the results on a labeled dataset such as [O-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire18//o-haze/) , you can go through the following procedure:
-1. Please put the dataset to be tested into the ``test0`` folder. You need put the hazy images into the ``test0/hazy`` folder, and put the clear images into the ``test0/gt`` folder. We have prepared the dataset of the experimental results in the paper.
-2. Please run the ``testall.py``, then you will get the dehazing results SSIM, PSNR, and Inference time.
+If you want to test the results on a labeled dataset such as [MP3D](https://niessner.github.io/Matterport/), you can go through the following procedure:
+1. Please put the dataset to be tested into the ``test0`` folder.
+2. Please run the ``testall.py``, then you will get the detection results mAP50 and Inference time.
 
-## Train
-You can perform supervised learning of the network by following this step.
-1. Please put the dataset into the ``train_data`` folder. You can get the [RESIDE](https://sites.google.com/view/reside-dehaze-datasets) for training.
-2. Please run the ``train.py``, then you will get the dehazing model in ``saved_models`` folder.
+## Other codes will be updated soon
+
