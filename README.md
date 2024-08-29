@@ -8,7 +8,11 @@ The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese 
 In this manuscript, we propose a new Object-Aware Region Enhancement (OARE) method to improve object detection in harsh environments.
 
 <p float="left">
-  &emsp;&emsp; <img src="./f.png" width="900" />
+  &emsp;&emsp; <img src="./m1.png" width="900" />
+</p>
+
+<p float="left">
+  &emsp;&emsp; <img src="./mm2.png" width="900" />
 </p>
 
 ## Dependencies
@@ -43,7 +47,7 @@ SemiStrain.py: Training the dehazing model by Semi-supervised learning in specif
 1. Please put the images to be tested into the ``test_images`` folder. We have prepared the images of the experimental results in the paper.
 2. Please run the ``test.py``, then you will get the following results:
 <p float="left">
-  &emsp;&emsp; <img src="./f2.png" width="900" />
+  &emsp;&emsp; <img src="./f7.png" width="900" />
 </p>
 
 ## Test all
