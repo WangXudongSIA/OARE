@@ -49,7 +49,7 @@ train.py: Training the dehazing model.
 </p>
 
 ## Test all
-If you want to test the results on a labeled dataset such as [MP3D](https://niessner.github.io/Matterport/), you can go through the following procedure:
+If you want to test the results on a labeled dataset such as [M3FD](https://github.com/JinyuanLiu-CV/TarDAL), you can go through the following procedure:
 1. Please put the dataset to be tested into the ``test0`` folder.
 2. Please run the ``testall.py``, then you will get the detection results mAP50 and Inference time.
 
