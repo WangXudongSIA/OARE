@@ -16,9 +16,8 @@ In this manuscript, we propose a new Object-Aware Region Enhancement (OARE) meth
 </p>
 
 ## Dependencies
-* Python 3.8
-* PyTorch 1.8.1 + cu111
-* torchvision 0.9.1 + cu111
+* Python 3.10
+* PyTorch 2.1.2 + cu118
 * numpy
 * opencv-python
 * skimage
