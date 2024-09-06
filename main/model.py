@@ -1,8 +1,3 @@
-# Organization: Electrical Engineering and Intelligent Control major, North University of China
-# Author: Xudong Wang
-# Time：2022/3/7 9:40
-# function: The construction of MdehazeNet network
-
 import torch
 import torch.nn as nn
 import math
